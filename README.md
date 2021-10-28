@@ -4,24 +4,24 @@ A selenium script that scans a list of websites from for an arbitrary number of 
 # Setup
 0) You need to have python 3 installed 
 
-2) Install the package manager for Python 
+2) Install the package manager for Python <br>  
   $ python get-pip.py 
 (Windows is different: https://pip.pypa.io/en/stable/installation/)
 
-3) Create a virtual environment for this script
+3) Create a virtual environment for this script <br> 
   $ python3 -m venv <nameofvenv> 
   
-4) Activate virtual environment
+4) Activate virtual environment <br> 
   $ source <nameofvenv>/bin/activate 
 
-5) Install the required packages for this script(just in the venv, not globally)
+5) Install the required packages for this script(just in the venv, not globally) <br> 
   $ pip install -r requirements.txt
 
-6) Add path to your browser in row 9 of script 
+6) Add path to your browser in row 9 of script <br> 
   driver = webdriver.Chrome('path/to/browser')
   
-if you want to use Chromium you can choose the location for the chromedriver
-Downloadlink for Chromium 'chromedriver'
+if you want to use Chromium you can choose the location for the chromedriver<br> 
+Downloadlink for Chromium 'chromedriver': <br> 
 https://chromedriver.chromium.org/downloads
   
 # Runscript
