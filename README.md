@@ -27,10 +27,10 @@ https://chromedriver.chromium.org/downloads
 # Runscript
 $ python research_tool.py 
   
-if you want to see the "action" happening comment row 7 \n
+if you want to see the "action" happening comment row 7 <br>
 and make the selenium test not headless
-  \nchange 
-  \n chrome_options.add_argument('headless')
-\nto
-  \n \# chrome_options.add_argument('headless')
+  <br> change 
+  <br> chrome_options.add_argument('headless')
+  <br> to
+  <br> \# chrome_options.add_argument('headless')
 
