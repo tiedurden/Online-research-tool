@@ -31,5 +31,5 @@ if you want to see the "action" happening comment row 7 and make the selenium te
 change 
   chrome_options.add_argument('headless')
 to
-  # chrome_options.add_argument('headless')
+  \# chrome_options.add_argument('headless')
 
