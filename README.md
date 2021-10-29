@@ -9,10 +9,10 @@ A selenium script that scans a list of websites from for an arbitrary number of 
 (Windows is different: https://pip.pypa.io/en/stable/installation/)
 
 3) Create a virtual environment for this script <br> 
-  $ python3 -m venv <nameofvenv> 
+  $ python3 -m venv nameofvenv
   
 4) Activate virtual environment <br> 
-  $ source <nameofvenv>/bin/activate 
+  $ source nameofvenv/bin/activate 
 
 5) Install the required packages for this script(just in the venv, not globally) <br> 
   $ pip install -r requirements.txt
