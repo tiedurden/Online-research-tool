@@ -10,6 +10,7 @@ A selenium script that scans a list of websites from for an arbitrary number of 
 
 3) Create a virtual environment for this script <br> 
   $ python3 -m venv nameofvenv
+(Windows is very different: https://mothergeo-py.readthedocs.io/en/latest/development/how-to/venv-win.html#where-is-python)
   
 4) Activate virtual environment <br> 
   $ source nameofvenv/bin/activate 
